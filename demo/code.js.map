@@ -1,0 +1,1 @@
+{"version":3,"file":"code.js","sources":["app.js"],"sourcesContent":["export function show(text) {\n    console.log(text);\n}\n"],"names":[],"mappings":"AAAO,SAAS,IAAI,CAAC,IAAI,EAAE;AAC3B,IAAI,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;AACtB;;;;"}

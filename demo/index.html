@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Terser Test</title>
+</head>
+<body>
+  <main id="app">
+    <section>
+      <h2>Hello</h2>
+      <button onclick="test()">Test</button>
+    </section>
+  </main>
+
+  <script type="module">
+    import { show } from './code.min.js';
+    window.test = function() {
+        show('Hello');
+    }
+  </script>
+</body>
+</html>
